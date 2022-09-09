@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+    .body__logoGrafica{
+        width: 140px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+
+#formulario_cadastro{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 50px;
+    padding-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 16px 48px 0px;
+}
+    .formulario_cadastro__label{
+        font-family: poppins; 
+        font-size: 16px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .formulario_cadastro__input{
+        font-family: poppins; 
+        font-size: 15px;
+        margin-bottom: 20px;
+        height: 35px;
+        border:1px solid rgba(97, 92, 92, 0.582);
+        border-radius: 8px;
+    }
+
+    .formulario_cadastro__small{
+        font-family: poppins; 
+        color: red;
+    }
+
+    #formulario_cadastro_butEnviar{
+        background-color:#0088CF;
+        color:white;
+        font-size: 20px;
+        font-family: poppins; 
+        border-radius: 5px;
+        border: 2px;
+        padding: 7px;
+        margin-top: 15px;
+        font-weight: bold;
+        height: 350px;
+        width: 100px;
+
+    }
+
+
+.formulario_cadastro__input--erro{
+    font-family: poppins; 
+    font-size: 15px;
+    height: 35px;
+    border:1px solid red;
+    border-radius:8px;
+}

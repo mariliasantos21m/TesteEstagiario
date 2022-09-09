@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hxi5epr.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <img class="body__logoGrafica" src="static/logo.png">
+    <h2 id="text_cadastro_realizado"></h2>
+
+    <form id="formulario_cadastro">
+        <div id="formulario_cadastro__campos">
+            <div>
+                <label for="formulario_cadastro__nome"  class="formulario_cadastro__label">Nome:</label>
+                <input id="formulario_cadastro_nome" name="nome" class="formulario_cadastro__input" type="text" placeholder="Digite seu nome">
+                <small class="formulario_cadastro__small"></small><br>
+            </div>
+
+            <div>
+                <label for="formulario_cadastro_email" class="formulario_cadastro__label">Email:</label>
+                <input id="formulario_cadastro_email" name="email" class="formulario_cadastro__input" type="email" placeholder="Digite seu email">
+                <small class="formulario_cadastro__small"></small> <br>
+            </div>
+
+            <div>
+                <label for="formulario_cadastro_nome" class="formulario_cadastro__label">Telefone:</label>
+                <input id="formulario_cadastro_telefone" name="telefone" class="formulario_cadastro__input" type="text" placeholder="Digite seu telefone">
+                <small class="formulario_cadastro__small"></small> <br>
+            </div>
+        </div>
+        <button id="formulario_cadastro_butEnviar" type="submit">Enviar</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
